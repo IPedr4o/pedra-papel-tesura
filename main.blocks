@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="mDMu0H]4;b:F;k|z~JA_">pedra papel tesoura</variable></variables><block type="device_gesture_event" id="B,},o(vl,*ku%jkh`vwh" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="38T6#E)JhF9U%ariJ~Rg"><field name="VAR" id="mDMu0H]4;b:F;k|z~JA_">pedra papel tesoura</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="COXC}V6Zj`34@?3Y~;6s"><value name="min"><shadow type="math_number" id="G9ZCj|ihbMi2KGPZ~pjl"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="K07QnQl`C3_(c`~Zmu;8"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="oDgmL|a4^`m6VxRXMt/G"><mutation elseif="2" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=".B7E4_b/2,rrIm;{L)m,"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="V(h@I7s~:nf)Mgyr=ef{"><field name="VAR" id="mDMu0H]4;b:F;k|z~JA_">pedra papel tesoura</field></block></value><value name="B"><shadow type="math_number" id="#*e-iVNx8Xw=ADLCKmN("><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="NdhRfa~MK[5~Wr#,,iw+"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        # # # # # 
+        . . # # # 
+        . . . . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="#*:!StPY3W-yTVFGO`+Y"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="s2(LqxO/76(c3S[-wq/o"><field name="VAR" id="mDMu0H]4;b:F;k|z~JA_">pedra papel tesoura</field></block></value><value name="B"><shadow type="math_number" id="j-YognEgp9AnE$n%wi+w"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="m1R)z.eX9|LVVwrZMJb="><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="N;u{0x$@W?bb?2PT`2z}"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="c8+#yO#=a)]c]#eHktC?"><field name="VAR" id="mDMu0H]4;b:F;k|z~JA_">pedra papel tesoura</field></block></value><value name="B"><shadow type="math_number" id="|/m3b[l}f._1hL?~a7bg"><field name="NUM">3</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="uVC#X1d.qYFIX+#ZU2U$"><field name="LEDS">`
+        # # . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # # . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="+bOhDEK5!JbeJ*;A$}hm"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></next></block></statement></block></xml>
